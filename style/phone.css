@@ -1,0 +1,49 @@
+@media only screen and (max-width: 426px){
+    nav{
+        position: relative !important;
+    }
+	/* *Banner */
+    #banner .container{
+        flex-direction: column;
+    }
+    #banner .container div h1{
+        width: 100%;
+    }
+
+    /* *Community */
+    #toplulugumuz div .row{
+        width: 100%;
+    }
+
+    /* *Register Section */
+    #uyeol .container #buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #uyeol .container #buttons .button-group__uyelik{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* *Footer */
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .container .footer-section__brand{
+        width: 90%;
+    }
+    footer .container .footer-section__navlinks{
+        width: 90%;
+        margin-bottom: 1.25rem;
+    }
+    footer .container .footer-section__otherlinks{
+        width: 90%;
+        margin-bottom: 1.25rem;
+    }
+    footer .container .footer-section__socialmedia{
+        width: 100%;
+    }
+}
